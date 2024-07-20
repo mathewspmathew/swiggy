@@ -2,6 +2,32 @@
     font-family: "Proxima-medium";
     src: url('/fonts/proximanovamedium.otf');
 }
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(/fonts/Gilroy-Regular.ttf)
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(/fonts/Gilroy-Light.ttf)
+}
+@font-face {
+    font-family: BasisGrotesque-Bold;
+    src: url(/fonts/BasisGrotesqueArabicPro-Bold.ttf)
+}
+@font-face {
+    font-family: BasisGrotesque-Black;
+    src: url(/fonts/BasisGrotesqueArabicPro-Black.ttf)
+}
+
+
 /* .headdd{
     font-family:'Proxima-medium';
 } */
@@ -11,4 +37,86 @@ body{
 .horizontal-divider{
     margin-top: 80px;
     opacity: .2;
+}
+.cuisine{
+    margin-left: 165px;
+    margin-right: 168px;
+    margin-bottom: 40px;
+}
+.cuisine-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 150px;
+    column-gap: 30px;
+    row-gap: 15px;
+    margin-bottom: 70px;
+}
+.cuisine-type{
+    font-family: Gilroy-Medium;
+    color: rgba(2, 6, 12, 0.75);
+    border-width: 1px;
+    border-color:#e5e5e6;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 11px 10px 11px 10px;
+    margin: 0px;
+    height: 20px;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.cuinine-text-heading{
+    font-family: Gilroy-ExtraBold;
+  font-size: 24px;
+  
+}
+.text-cuisine-type{
+    margin: 0;
+    display: inline;
+    font-family: Gilroy-Bold;
+}
+.explore-restaurent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    column-gap: 30px;
+    row-gap: 15px;
+    margin-bottom: 70px;
+}
+.explore-restaurent-type{
+    /* font-family: Gilroy-Light; */
+    color: rgba(2, 6, 12, 0.75);
+    border-width: 1px;
+    border-color:#e5e5e6;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 11px 10px 11px 10px;
+    margin: 0px;
+    height: 20px;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.googleplay{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-googleplay{
+    width: 474px;
+    color: rgba(2, 6, 12, 0.75);
+    font-family: BasisGrotesque-Black;
+    font-size: 28px;
+}
+.img-appdownload{
+    height: 64px;
+    padding-left: 30px;
 }

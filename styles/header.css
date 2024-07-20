@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Proxima-medium";
+    src: url('/fonts/proximanovamedium.otf');
+}
+@font-face {
+    font-family: "Proxima-bold";
+    src: url('/fonts/proximanovabold.otf');
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    /* border-width: 0px 0px 5px 0px; */
+    /* border-bottom-color: black; */
+    /* border-bottom-style: solid; */
+    /* border-bottom: 5px solid rgba(0,0, 0, 1); */
+    box-shadow: 0 25px 40px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+}
+.main-logo{
+    width: 50px;
+}
+.logo-png{
+    width: 33px;
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 360px;
+}
+.down-arrow{
+    height: 18px;
+    margin-left: 20px;
+    position: relative;
+}
+
+ 
+.header-left p{
+    font-family: Proxima-bold;
+}
+.location-selector{
+    margin-left: 25px;
+    /* text-decoration-line: underline;
+    text-decoration-thickness: 1.5px; */
+    font-size: 14px;
+    border-bottom: 2px solid rgb(61, 65, 82);
+    color: rgb(61, 65, 82);
+
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-left: 280px
+}
+.iconandtext{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-left: 45px;
+}
+.iconandtext {
+    font-family: Proxima-medium;
+    color: rgb(61, 65, 82);
+}
+.icon-head{
+    width: 20px;
+    height: 20px;
+}
+.icon-png{
+    width: 20px;
+    height: 20px;
+}
+.text-offer{
+    position: relative;
+    width:68px ;
+    /* height: 30px; */
+   
+    
+}
+.text-new{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* bottom:-1; */
+    color: orange;
+    font-size: 9px;
+    font-family: Proxima-bold;
+}

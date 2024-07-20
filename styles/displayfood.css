@@ -1,0 +1,35 @@
+.display-food{
+    width: 75%;
+    height: 1000px;
+    background-color: rgb(247, 230, 230);
+    margin-left: 250px;
+    /* margin-right: 200px; */
+    
+
+}
+.mind-slider{
+    height: 185px;
+    width: 100%;
+    /* background-color: bisque; */
+}
+.mind-food{
+    height: 100%;
+    width: 150px;
+    background-color: beige;
+    margin-right: 10px;
+    flex: 0 0 auto; 
+}
+.mind-slider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+.mind-food-pic{
+    width: 150px;
+}
+.mind-text{
+    
+}

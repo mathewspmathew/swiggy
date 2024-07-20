@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Proxima-medium";
+    src: url('/fonts/proximanovamedium.otf');
+}
+/* .headdd{
+    font-family:'Proxima-medium';
+} */
+body{
+    margin: 0px;
+}

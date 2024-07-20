@@ -1,7 +1,28 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url(/fonts/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Proximanovacond-black;
+    src: url(/fonts/proximanovacond-black.otf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(/fonts/Gilroy-Regular.ttf);
+}
+
 .display-food{
     width: 75%;
     height: 1000px;
-    background-color: rgb(247, 230, 230);
+    /* background-color: rgb(247, 230, 230); */
     margin-left: 250px;
     /* margin-right: 200px; */
     
@@ -31,5 +52,119 @@
     width: 150px;
 }
 .mind-text{
+    font-family: Gilroy-ExtraBold;
+    font-size: 24px;
+}
+.top-img-food{
+    height: 182px;
+    width: 273px;
+    background-color: grey;
+    border-radius: 16px;
+   margin-right: 10px;
+    position: relative;
+     flex: 0 0 auto; 
+}
+.top-img-food-text{
+    height: 182px;
+    width: 273px;
+    margin-right: 10px;
+}
+.top-img-food::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 -72px 87px -10px #000;
+        border-radius: 16px;
+  }
+.top-food{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+    height: 275px;
+}
+.top-img-specific{
+    width: 273px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
     
+}
+.top-imgandprice{
+    width: 273px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 0;
+    position: relative;
+    align-items: end;
+}
+.price-tag{
+position: absolute;
+left: 16px;
+bottom: 10px;
+    /* top: 0; */
+    color: white;
+    font-family: Proximanovacond-black;
+    font-size: 22px;
+    margin: 0;
+    z-index: 1;
+}
+.food-rating{
+    display: flex;
+}
+.icon-rating{
+    height: 18px;
+    margin-right: 3px;
+}
+.food-rating div{
+    font-family: Gilroy-Medium;
+}
+.item-name{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+.food-variety{
+    font-family:Gilroy-Medium;
+    color: rgba(2, 6, 12, 0.6);
+}
+.food-location{
+    font-family:Gilroy-Medium;
+    color: rgba(2, 6, 12, 0.6);
+    }
+.top-restaurents-text{
+    padding-top: 25px;
+    font-family: Gilroy-ExtraBold;
+    font-size: 24px;
+}
+.text-afterfood{
+    margin-left: 18px;
+    margin-top: 13px;
+}
+.img-filter{
+    height: 15px;
+    padding-left: 5px;
+}
+.filter-bar{
+    display: flex;
+    flex-direction: row;  
+
+}
+.filter-bar-text{
+    margin: 0;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    color: rgba(2, 6, 12, 0.75);;
+}
+.filter-bar-inside{
+    display: flex;
+    flex-direction: row; 
+    border-style:solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 8px 15px 8px 15px;
+    border-radius: 32px;
+    border-color: #dcdcdc;
 }

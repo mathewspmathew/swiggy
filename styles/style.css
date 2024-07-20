@@ -8,3 +8,7 @@
 body{
     margin: 0px;
 }
+.horizontal-divider{
+    margin-top: 80px;
+    opacity: .2;
+}

@@ -15,7 +15,7 @@
     /* border-bottom-color: black; */
     /* border-bottom-style: solid; */
     /* border-bottom: 5px solid rgba(0,0, 0, 1); */
-    box-shadow: 0 25px 40px rgba(0,0,0,.1);
+    box-shadow: 0 15px 13px rgba(8, 8, 8, 0.03);
     display: flex;
     align-items: center;
 }

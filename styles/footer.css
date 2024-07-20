@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+
+.footer{
+    height: 495px;
+    width: 100%;
+    background-color: #02060c;
+}
+.footer-contents{
+    /* background-color: antiquewhite; */
+    height: 400px;
+    width: auto;
+    padding-left: 310px;
+    padding-right: 240px;
+    padding-top: 30px;
+}
+.footer-contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.logo-footer{
+    width: 20px;
+
+}
+.footer-logo-pos{
+    display: flex;
+    flex-direction: column;
+}
+.footer-swiggy-text{
+    font-size: 26px;
+    font-family: Gilroy-Bold;
+    padding-left: 5px;
+}
+.footer-swiggy-logo-allign{
+    display: flex;
+
+}
+.text-footer{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Gilroy-Medium;
+}
+.text-footer-heading{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+}
+.cities59{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);;
+}
+.down-arrow-white{
+    margin-left: 30px;
+    height: 18px;
+}
